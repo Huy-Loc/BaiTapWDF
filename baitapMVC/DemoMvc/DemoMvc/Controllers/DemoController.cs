@@ -27,7 +27,7 @@ namespace DemoMvc.Controllers
         public ActionResult GiaiPhuongTrinhB1(double SoA,double SoB)
         {
 
-            Double x = gpt.GiaiPhuongTrinhBac1(SoA, SoB);
+            Double x = gpt.GiaiPHuongTrinhBacNhat(SoA, SoB);
             ViewBag.nghiemPT = x;
             return View();
         }
