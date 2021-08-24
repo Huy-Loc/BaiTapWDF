@@ -33,16 +33,14 @@ namespace baitap1
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(372, 368);
+            this.ClientSize = new System.Drawing.Size(255, 234);
             this.Name = "Form1";
-            this.Text = "Form1";
             this.ResumeLayout(false);
 
         }
 
         #endregion
+
     }
 }
 

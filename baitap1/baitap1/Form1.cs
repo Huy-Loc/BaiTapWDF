@@ -16,5 +16,7 @@ namespace baitap1
         {
             InitializeComponent();
         }
+
+      
     }
 }
