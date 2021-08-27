@@ -22,7 +22,7 @@ namespace baitap1.Controllers
         [HttpPost]
         public ActionResult GetInfo(string ten, string tuoi, string lop)
         {
-            ViewBag.ten = ten;
+            ViewBag.ten=ten;
             ViewBag.tuoi = tuoi;
             ViewBag.lop = lop;
             return View();
