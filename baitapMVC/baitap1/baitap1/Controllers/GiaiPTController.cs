@@ -18,7 +18,7 @@ namespace baitap1.Controllers
         }
       
        
-        public ActionResult Giaiptb1(string SoA, string SoB)
+        public ActionResult Giaiptb1()
         {
             return View();
         }
