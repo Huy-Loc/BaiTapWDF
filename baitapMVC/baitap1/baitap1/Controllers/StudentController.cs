@@ -28,6 +28,8 @@ namespace baitap1.Controllers
             return View();
 
         }
+        
+
 
     }
 }
