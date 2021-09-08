@@ -17,20 +17,25 @@ namespace baitap1.Controllers
             return View();
         }
       
-       
         public ActionResult Giaiptb1()
         {
             return View();
         }
         [HttpPost]
-        public ActionResult Giaiptb1(double a, double b)
+        public ActionResult Giaiptb1(string a, string b)
         {
-
-            Double x = gpt.giaipt(a, b);
-            ViewBag.nghiemPT = x;
+            try
+            {
+                double soA = Convert.ToDouble(a);
+                double soB = Convert.ToDouble(b);
+                Double x = gpt.giaipt(soA, soB);
+                ViewBag.nghiemPT = x;
+            }
+            catch (Exception)
+            {
+                ViewBag.nghiemPT = "Kiểu dữ liệu đầu vào không đúng";
+            }
             return View();
-
-
         }
     }
 }
